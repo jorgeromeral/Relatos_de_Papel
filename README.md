@@ -1,8 +1,11 @@
-# React + Vite
+# Relatos de Papel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Relatos de Papel es una aplicación web para la venta de libros. Permite a los usuarios buscar, ver detalles y añadir libros a su carrito de compras.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Catálogo de Libros**: Muestra una lista de libros disponibles con sus detalles.
+- **Búsqueda**: Permite buscar libros por título.
+- **Carrito de Compras**: Los usuarios pueden añadir libros al carrito, actualizar la cantidad y proceder al pago.
+- **Detalles del Libro**: Muestra información detallada sobre cada libro.
+- **Checkout**: Proceso de pago para completar la compra.
