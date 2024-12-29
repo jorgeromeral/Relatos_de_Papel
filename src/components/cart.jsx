@@ -21,7 +21,7 @@ export const Cart = () => {
               <h3>Carrito</h3>
             </header>
             <ul className="cart_list">
-              {cart.length === 0 && <li>Carrito Vacío</li>}
+              {cart.length === 0 && <li className='cart_book'>Carrito Vacío</li>}
               {cart.map((book) => (
                 <li className='cart_book' key={book.id}>
                   {book.title}
